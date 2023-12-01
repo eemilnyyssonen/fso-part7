@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+ {
+    "password": "Test blog db1",
+    "author": "Mauri",
+    "url": "url_here",
+    "likes": 1
+ }
